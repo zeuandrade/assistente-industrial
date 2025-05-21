@@ -4,7 +4,8 @@ import pandas as pd
 import os
 import openai
 from langchain_community.llms import HuggingFaceEndpoint
-from langchain.agents import create_pandas_dataframe_agent
+from langchain_experimental.agents import create_pandas_dataframe_agent
+
 
 # Interface inicial
 st.set_page_config(page_title="Assistente Industrial", layout="wide")
